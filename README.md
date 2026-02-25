@@ -104,7 +104,7 @@ Exceção personalizada para recurso não encontrado
 
 ▶️ Como Executar o Projeto
 
-git clone https://github.com/seu-usuario/getorx.git
+git clone https://github.com/Edigleis2022/getorx.git
 
 cd getorx
 
