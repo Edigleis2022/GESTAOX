@@ -27,7 +27,9 @@ controller → service → repository → model
                dto
                 ↓
             exception
+            
 📂 Estrutura de Pacotes
+
 GetorX
 │
 ├── controller
@@ -37,6 +39,7 @@ GetorX
 ├── model
 ├── dto
 └── exception
+
 📌 Responsabilidade das Camadas
 
 Controller → Camada responsável pelos endpoints da API
