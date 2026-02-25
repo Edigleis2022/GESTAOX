@@ -61,7 +61,7 @@ GetorX
 └── exception
     ├── GlobalExceptionHandler.java
     └── RecursoNaoEncontradoException.java
-````
+```
 📌 Responsabilidade das Camadas
 
 Controller → Camada responsável pelos endpoints da API
@@ -104,9 +104,11 @@ Exceção personalizada para recurso não encontrado
 
 ▶️ Como Executar o Projeto
 
+```bash
 git clone https://github.com/Edigleis2022/gestorx.git
 cd gestorx
 mvn spring-boot:run
+```
 
 Requisitos:
 
