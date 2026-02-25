@@ -21,25 +21,47 @@ Persistência de dados com JPA/Hibernate
 🏗️ Arquitetura do Projeto
 
 O sistema foi estruturado seguindo o padrão:
-
+```
 controller → service → repository → model
                 ↓
                dto
                 ↓
             exception
-            
+```
+
+```
 📂 Estrutura de Pacotes
 
 GetorX
 │
 ├── controller
+│   ├── FornecedorController.java
+│   ├── ProdutoController.java
+│   └── UsuarioController.java
+│
 ├── service
-│   └── implementacao
+│   ├── implementacao
+│   ├── FornecedorService.java
+│   ├── ProdutoService.java
+│   └── UsuarioService.java
+│
 ├── repository
+│
 ├── model
+│   ├── Usuario.java
+│   ├── Produto.java
+│   ├── Fornecedor.java
+│   ├── Demanda.java
+│   └── EmitirNota.java
+│
 ├── dto
+│   ├── ProdutoDTO.java
+│   └── FornecedorDTO.java
+│
 └── exception
-
+    ├── GlobalExceptionHandler.java
+    └── RecursoNaoEncontradoException.java
+````
 📌 Responsabilidade das Camadas
 
 Controller → Camada responsável pelos endpoints da API
