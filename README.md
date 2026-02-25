@@ -106,7 +106,7 @@ Exceção personalizada para recurso não encontrado
 
 git clone https://github.com/Edigleis2022/getorx.git
 
-cd getorx
+cd gestorx
 
 mvn spring-boot:run
 
