@@ -68,11 +68,17 @@ Tratamento de exceções personalizadas
 Algumas funcionalidades ainda estão em fase de implementação.
 
 ▶️ Como Executar o Projeto
+
 1️⃣ Clonar o repositório
-git clone https://github.com/seu-usuario/getorx.git
+
+git clone https://github.com/Edigleis2022/getorx.git
+
 2️⃣ Acessar a pasta do projeto
+
 cd getorx
+
 3️⃣ Executar a aplicação
+
 mvn spring-boot:run
 
 Certifique-se de ter:
