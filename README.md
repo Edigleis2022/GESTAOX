@@ -1,18 +1,16 @@
-📚 GetorX – Projeto Acadêmico
+🚀 GetorX API
 
-API REST desenvolvida utilizando Java e Spring Boot, com foco na aplicação prática de conceitos de arquitetura em camadas, organização de código e boas práticas no desenvolvimento backend.
+API REST desenvolvida com Spring Boot como parte de um projeto acadêmico, com foco na aplicação prática de arquitetura em camadas e boas práticas no desenvolvimento backend.
 
-🚧 Projeto em desenvolvimento para fins acadêmicos.
+📚 Contexto Acadêmico
 
-🎯 Objetivo
-
-O projeto tem como finalidade aplicar, na prática, os seguintes conceitos estudados em sala de aula:
-
-Desenvolvimento de APIs REST
+Este projeto foi desenvolvido com o objetivo de aplicar conceitos estudados em sala de aula, incluindo:
 
 Arquitetura em camadas
 
-Separação de responsabilidades
+Desenvolvimento de APIs REST
+
+Organização e estruturação de projetos Java
 
 Uso de DTO (Data Transfer Object)
 
@@ -20,30 +18,38 @@ Tratamento global de exceções
 
 Persistência de dados com JPA/Hibernate
 
-🏗️ Arquitetura do Sistema
+🏗️ Arquitetura do Projeto
 
-A aplicação foi estruturada seguindo o padrão de arquitetura em camadas:
+O sistema foi estruturado seguindo o padrão:
 
-Controller → Service → Repository → Model
-                     ↓
-                    DTO
-                     ↓
-                Exception
-📌 Descrição das Camadas
+controller → service → repository → model
+                ↓
+               dto
+                ↓
+            exception
+📂 Estrutura de Pacotes
+GetorX
+│
+├── controller
+├── service
+│   └── implementacao
+├── repository
+├── model
+├── dto
+└── exception
+📌 Responsabilidade das Camadas
 
-Controller: Responsável por receber e responder requisições HTTP.
+Controller → Camada responsável pelos endpoints da API
 
-Service: Contém as regras de negócio da aplicação.
+Service → Implementação das regras de negócio
 
-Repository: Realiza a comunicação com o banco de dados.
+Repository → Comunicação com o banco de dados
 
-Model: Representa as entidades do sistema.
+Model → Entidades do sistema
 
-DTO: Utilizado para transferência de dados entre camadas.
+DTO → Transferência segura de dados entre camadas
 
-Exception: Responsável pelo tratamento global de erros.
-
-Essa organização permite melhor manutenção, legibilidade e escalabilidade do sistema.
+Exception → Tratamento global de erros da aplicação
 
 🛠️ Tecnologias Utilizadas
 
@@ -57,9 +63,7 @@ Hibernate
 
 Maven
 
-🔄 Funcionalidades Implementadas
-
-Estrutura base da API
+🔌 Funcionalidades Implementadas
 
 Cadastro de usuários
 
@@ -67,21 +71,17 @@ Cadastro de produtos
 
 Cadastro de fornecedores
 
-Implementação de exceção personalizada para recurso não encontrado
+Tratamento global de exceções
 
-Novas funcionalidades estão em fase de implementação.
+Exceção personalizada para recurso não encontrado
 
-▶️ Execução do Projeto
+🚧 O projeto ainda está em desenvolvimento e pode receber novas funcionalidades.
 
-Clonar o repositório:
+▶️ Como Executar o Projeto
 
-git clone https://github.com/Edigleis2022/getorx.git
-
-Acessar o diretório:
+git clone https://github.com/seu-usuario/getorx.git
 
 cd getorx
-
-Executar a aplicação:
 
 mvn spring-boot:run
 
@@ -91,9 +91,9 @@ Java instalado
 
 Maven configurado no sistema
 
-📌 Status do Projeto
+📌 Status
 
-Em desenvolvimento — projeto acadêmico com evolução contínua conforme aplicação dos conteúdos estudados.
+Projeto acadêmico em desenvolvimento, com foco na consolidação dos conceitos de backend com Spring Boot.
 
 👨‍🎓 Autores
 
