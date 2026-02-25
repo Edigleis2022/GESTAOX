@@ -105,9 +105,7 @@ Exceção personalizada para recurso não encontrado
 ▶️ Como Executar o Projeto
 
 git clone https://github.com/Edigleis2022/gestorx.git
-
 cd gestorx
-
 mvn spring-boot:run
 
 Requisitos:
