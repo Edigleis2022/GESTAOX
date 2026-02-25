@@ -1,16 +1,16 @@
-🚀 GetorX API
+📚 GetorX – Projeto Acadêmico
 
-API REST desenvolvida com Spring Boot para gerenciamento de usuários, produtos e fornecedores.
+API REST desenvolvida utilizando Java e Spring Boot, com foco na aplicação prática de conceitos de arquitetura em camadas, organização de código e boas práticas no desenvolvimento backend.
 
-🚧 Projeto em desenvolvimento — novas funcionalidades estão sendo implementadas.
+🚧 Projeto em desenvolvimento para fins acadêmicos.
 
-📌 Objetivo
+🎯 Objetivo
 
-O projeto foi criado com o objetivo de praticar e consolidar conhecimentos em:
-
-Arquitetura em camadas
+O projeto tem como finalidade aplicar, na prática, os seguintes conceitos estudados em sala de aula:
 
 Desenvolvimento de APIs REST
+
+Arquitetura em camadas
 
 Separação de responsabilidades
 
@@ -18,30 +18,32 @@ Uso de DTO (Data Transfer Object)
 
 Tratamento global de exceções
 
-Organização de projetos Java com Spring Boot
+Persistência de dados com JPA/Hibernate
 
-🏗️ Arquitetura
+🏗️ Arquitetura do Sistema
 
-O projeto segue o padrão de arquitetura em camadas:
+A aplicação foi estruturada seguindo o padrão de arquitetura em camadas:
 
-controller → service → repository → model
-                   ↓
-                  dto
-                   ↓
-               exception
-📂 Estrutura de Pacotes
+Controller → Service → Repository → Model
+                     ↓
+                    DTO
+                     ↓
+                Exception
+📌 Descrição das Camadas
 
-controller → Responsável pelos endpoints da API
+Controller: Responsável por receber e responder requisições HTTP.
 
-service → Contém as regras de negócio
+Service: Contém as regras de negócio da aplicação.
 
-repository → Comunicação com o banco de dados
+Repository: Realiza a comunicação com o banco de dados.
 
-model → Entidades do sistema
+Model: Representa as entidades do sistema.
 
-dto → Objetos de transferência de dados
+DTO: Utilizado para transferência de dados entre camadas.
 
-exception → Tratamento global de erros
+Exception: Responsável pelo tratamento global de erros.
+
+Essa organização permite melhor manutenção, legibilidade e escalabilidade do sistema.
 
 🛠️ Tecnologias Utilizadas
 
@@ -49,13 +51,15 @@ Java
 
 Spring Boot
 
-Maven
-
 Spring Data JPA
 
 Hibernate
 
-🔌 Funcionalidades Atuais
+Maven
+
+🔄 Funcionalidades Implementadas
+
+Estrutura base da API
 
 Cadastro de usuários
 
@@ -63,36 +67,35 @@ Cadastro de produtos
 
 Cadastro de fornecedores
 
-Tratamento de exceções personalizadas
+Implementação de exceção personalizada para recurso não encontrado
 
-Algumas funcionalidades ainda estão em fase de implementação.
+Novas funcionalidades estão em fase de implementação.
 
-▶️ Como Executar o Projeto
+▶️ Execução do Projeto
 
-1️⃣ Clonar o repositório
+Clonar o repositório:
 
 git clone https://github.com/Edigleis2022/getorx.git
 
-2️⃣ Acessar a pasta do projeto
+Acessar o diretório:
 
 cd getorx
 
-3️⃣ Executar a aplicação
+Executar a aplicação:
 
 mvn spring-boot:run
 
-Certifique-se de ter:
+Requisitos:
 
 Java instalado
 
-Maven configurado no PATH
+Maven configurado no sistema
 
 📌 Status do Projeto
 
-🚧 Em desenvolvimento
-Estrutura principal definida e funcionalidades sendo incrementadas.
+Em desenvolvimento — projeto acadêmico com evolução contínua conforme aplicação dos conteúdos estudados.
 
-👨‍💻 Autores
+👨‍🎓 Autores
 
 Edigleis Pereira dos Santos
 
